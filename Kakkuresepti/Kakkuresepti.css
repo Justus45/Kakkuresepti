@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #fdfdfd, #dbe9f4);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Otsikot */
+h2 {
+    text-align: center;
+    color: #2e91c7;
+    margin-bottom: 30px;
+}
+
+/* Lomake */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lomake elementit */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+select,
+textarea,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Nappi */
+input[type="submit"] {
+    background-color: #2e91c7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c6fa1;
+}
+
+/* Tulokset */
+h3 {
+    text-align: center; 
+    color: #2e91c7; /* Väri */
+    margin-top: 40px; 
+}
+
+p {
+    max-width: 500px; /* Leveys */
+    margin: 0 auto 20px auto;
+    background-color: #f7f9fc;
+    padding: 15px;
+    border-radius: 8px; /* Reunan säde*/
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Varjostusta */
+    line-height: 1.6;
+}
